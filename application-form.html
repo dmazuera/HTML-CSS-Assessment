@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Engineering Aptitude Test</h1>
+
+<p> Are you an engineer applying for an engineering job? The following engineering aptitude page covers a huge range of tests, but find out more about the most common tests and how we can help you prepare for them.<br> Please fill in the information below.</p>
+
+    <form action="/application-success" method="POST">
+      What is your first name? <input type="text" name="person">
+      <br>
+      <b>What is your last name? </b><input type="text" name="person">
+      <br>
+      What is your salary requirement? <input type="text" name="person">
+      <br>
+      Which job are you applying for:
+        <select name="job" required>
+          <option value="Software Engineer">SoftwareEngineer</option>
+          <option value="QA Engineer">QAEngineer</option>
+          <option value="Product Manager">ProductManager</option>
+        </select>
+        <br>
+        <br>
+
+      <input type="submit">
+    </form>
+
+</body>
+</html>
